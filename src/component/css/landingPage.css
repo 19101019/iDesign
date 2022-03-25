@@ -1,3 +1,7 @@
+*{
+  font-family: 'Inter', sans-serif;
+}
+
 h3 {
   margin: 0.2em;
 }
@@ -45,7 +49,7 @@ p {
 
 .head-image {
   margin: 0.5em;
-  width: 60%;
+  width: 70%;
 }
 
 .head-image img {
@@ -59,7 +63,7 @@ p {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 40%;
+  width: 30%;
 }
 
 .secondary-image img {
@@ -72,7 +76,7 @@ p {
   margin: 1em;
   padding: 1em 0 0;
   display: flex;
-  border-bottom: 1px solid #a7a7a7;
+  border-bottom: 2px solid #a7a7a7;
 }
 
 .info-text {

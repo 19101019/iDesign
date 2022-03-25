@@ -26,6 +26,7 @@ function ProjectDetail(props) {
               height: "100%",
               backgroundColor: "transparent",
               color: projectId === "1" ? "#3B5998" : "#888888",
+              fontFamily:" 'Inter', sans-serif",
             }}
             onClick={project}
           >
@@ -214,7 +215,7 @@ function ProjectPage() {
             style={{ padding: "0.9em", borderRadius: "7px" }}
           />
           <label for="#password" style={{ fontSize: "15px", margin: "1em 0" }}>
-            Passwod
+            Password
           </label>
           <input
             type="password"
@@ -226,7 +227,7 @@ function ProjectPage() {
               width: "100%",
               margin: "0.2em",
               marginTop: "1em",
-              padding: "0.4em",
+              padding: "0.8em",
               fontSize: "15px",
               borderRadius: "5px",
               backgroundColor: "#3c5899",
@@ -268,7 +269,7 @@ function ProjectPage() {
             style={{
               width: "100%",
               margin: "0.2em",
-              padding: "0.4em",
+              padding: "0.6em",
               borderRadius: "5px",
               border: "2px solid #888888",
               fontSize: "15px",
